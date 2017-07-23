@@ -1,7 +1,9 @@
 # bootstrap-elm-sass
 Bootstrap for ELM / SASS projects.
 
-## Objectives
+
+## Objectives
+
 * no external dependencies (no npm -g)
 * ELM 0.18
 * SASS
@@ -10,37 +12,74 @@ Bootstrap for ELM / SASS projects.
 * simple webpack configuration file
 * separated examples
 
+
+
+
 ## Usage
 
 To start the development server:
 
-``̀ bash
-npm i
-npm run dev
+```shell
+$ npm i
+$ npm run dev
 ```
 
 Open [localhost:8080](http://localhost:8080).
 
-Minimalist todos viewer example:
+Basic TodoList viewer example:
+
 ![example](https://github.com/gribouille/bootstrap-elm-sass/blob/master/screen.png)
 
-To build a production in `dist` folder:
-``̀ bash
+To build a production release to the `dist` folder:
+
+
+```shell
 $ npm i
 $ npm run dist
+
 ```
 
 To start the ELM REPL:
-```bash
+
+```shell
 $ npm run repl
 ```
 
-To run the test
-```bash
+To run the tests:
+
+```shell
 $ npm run test
 ```
 
+## Structure
+
+```
+starter-elm-sass
+├── elm-package.json
+├── examples
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── index.js
+│   └── src
+│       └── Example.elm
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   └── App.elm
+├── styles
+│   ├── all.scss
+│   ├── colors.scss
+│   └── mixins.scss
+├── tests
+│   ├── elm-package.json
+│   └── TestApp.elm
+└── webpack.config.js
+```
+
 ## References
+
 * [elm-loader](https://github.com/elm-community/elm-webpack-loader)
 * [elm-webpack-starter](https://github.com/elm-community/elm-webpack-starter)
 
