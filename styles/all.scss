@@ -1,0 +1,38 @@
+
+@import 'colors';
+@import 'mixins';
+
+
+.todolist {
+  font-family: Arial;
+  font-size: 16px;
+
+  button { 
+    @include btnLink(); 
+    width: 20px;
+  }
+
+  .status {
+    .done {
+      color: $green;
+    }
+
+    .inprogress {
+      color: $blue;
+    }
+  }
+  
+  .delete {
+    color: $red;
+    opacity: 0.3;
+
+    &:hover { opacity: 1.0; }
+  }
+
+  .content.done {
+    text-decoration: line-through;
+    color: $grey;
+    font-style: oblique;
+    opacity: 0.4;
+  }
+}

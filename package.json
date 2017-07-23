@@ -1,0 +1,44 @@
+{
+  "name": "bootstrap-elm-sass",
+  "version": "0.1.0",
+  "description": "Bootstrap ELM / SASS",
+  "author": "Gribouille",
+  "license": "MIT",
+  "keywords": [
+    "elm",
+    "sass",
+    "bootstrap",
+    "start kit"
+  ],
+  "bugs": {
+    "url": "https://github.com/gribouille/starter-elm-sass/issues"
+  },
+  "homepage": "https://github.com/gribouille/starter-elm-sass",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gribouille/starter-elm-sass.git"
+  },
+  "scripts": {
+    "dist": "webpack",
+    "dev": "webpack-dev-server --watch --debug --progress --hot",
+    "repl": "elm-repl",
+    "test": "elm-test"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "*",
+    "css-loader": "*",
+    "elm": "*",
+    "elm-test": "*",
+    "elm-webpack-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-merge": "*"
+  }
+}
