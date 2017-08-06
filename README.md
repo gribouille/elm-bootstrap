@@ -1,5 +1,5 @@
-# bootstrap-elm-sass
-Bootstrap for ELM / SASS projects.
+# starter-elm-sass
+My template project for ELM / SASS projects.
 
 
 ## Objectives
@@ -28,7 +28,7 @@ Open [localhost:8080](http://localhost:8080).
 
 Basic TodoList viewer example:
 
-![example](https://github.com/gribouille/bootstrap-elm-sass/blob/master/screen.png)
+![example](./screen.png)
 
 To build a production release to the `dist` folder:
 
@@ -85,4 +85,4 @@ starter-elm-sass
 
 ## License
 
-This project is licensed under [MIT](https://github.com/gribouille/bootstrap-elm-sass/blob/master/LICENSE).
+This project is licensed under [MIT](./LICENSE).
